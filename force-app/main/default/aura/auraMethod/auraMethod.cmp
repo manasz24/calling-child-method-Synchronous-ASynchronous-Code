@@ -6,4 +6,14 @@
     </aura:method>
     
     <p>This component has an aura:method definition.</p>
+
+    <aura:method name="echo"
+    description="Sample method with server-side call">
+      <aura:attribute name="callback" type="Function" />
+  </aura:method>
+  
+  <p>This component has an aura:method definition.</p>
+
+    
+    
 </aura:component>
